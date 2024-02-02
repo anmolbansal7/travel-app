@@ -5,7 +5,13 @@ const Guide = () => {
 	return (
 		<section className="flexCenter flex-col">
 			<div className="padding-container max-container w-full pb-24">
-				<Image src="/camp.svg" alt="camp" width={50} height={50} />
+				<Image
+					src="/camp.svg"
+					alt="camp"
+					width={50}
+					height={50}
+					className="py-3"
+				/>
 				<p className="uppercase regular-18 -mt-1 mb-3 text-green-50">
 					We are here for you
 				</p>
@@ -47,9 +53,11 @@ const Guide = () => {
 								<p className="regular-16 text-gray-20">
 									Destination
 								</p>
-								<p className="bold-16 text-green-50">48 min</p>
+								<p className="bold-16 text-green-50 px-1">
+									5 hrs
+								</p>
 							</div>
-							<p className="bold-20 mt-2">Aguas Calientes</p>
+							<p className="bold-20 mt-2">Spiti Valley</p>
 						</div>
 
 						<div className="flex w-full flex-col">
@@ -57,7 +65,7 @@ const Guide = () => {
 								Start track
 							</p>
 							<h4 className="bold-20 mt-2 whitespace-nowrap">
-								Wonorejo Pasuruan
+								Manali
 							</h4>
 						</div>
 					</div>
